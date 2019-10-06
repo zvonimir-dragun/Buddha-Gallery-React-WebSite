@@ -1,12 +1,54 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+import Main from "./Components/Main"
+import './styles/styles.css'
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<Main />, document.getElementById("root"));
+
+
+// const tasks = ["List Item 1", "List Item 2", "List Item 3"];
+
+
+// const element = React.createElement('ol', null, 
+// tasks.map((task, index) => React.createElement('li', { key: index }, task))
+// );
+
+// const element = (
+//                   <div>
+//                     <h1>Task List</h1>
+//                     <ol>
+//                       {tasks.map((task, index) => (
+//                         <li key={index}> {task}</li>
+//                       ))}
+//                     </ol>
+//                   </div>
+// );
+
+
+
+
+
+// const names = ["George", "John", "Jane", "Jack", "Mary", "Tom"];
+// const otherNames = ["Ruth", "Bill", "Paul", "Diana", "Thomas"];
+
+// const allNames = [
+//   ...names,
+//   "Bob",
+//   ...otherNames
+// ];
+
+// const imena = (
+//   <div>
+//       {allNames.map((ime, index) => (
+//         <p key={index}> {ime}</p>
+//       ))}
+ 
+//   </div>
+// );
+
+
+
+
+
+// ReactDOM.render([element, imena], document.getElementById("root"));
