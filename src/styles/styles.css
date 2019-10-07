@@ -65,10 +65,57 @@ h1 {
     cursor: pointer;
     transition: 400ms;
     color: rgb(30, 185, 236);
+    border-color: rgb(77, 16, 189);
 }
 
 .button-container:active,
 .remove-button:active {
     color: rgb(255, 174, 0);
     font-size: 14px;
+}
+
+.addIcon {
+    margin: 20px auto;
+    display: table;
+    padding: 40px;
+    background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
+    background-size: contain;
+    border: none;
+}
+
+.form {
+    /* background: #c54a4a; */
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input {
+    font-family: sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.form-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    background: #065784;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+}
+
+.form-button:hover {
+    color: rgb(77, 16, 189);
+    background: #9cc4f8;
+    cursor: pointer;
+    transition: 400ms;
 }
